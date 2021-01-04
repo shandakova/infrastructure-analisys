@@ -12,7 +12,7 @@
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>infrastructure-analysis</name>
-    <description>The project is dedicated to the analysis of the infrastructure of the city of St.Petersburg.
+    <description>The project is dedicated to the analysis of the infrastructure of the city of St.Petersburg
     </description>
 
     <properties>
