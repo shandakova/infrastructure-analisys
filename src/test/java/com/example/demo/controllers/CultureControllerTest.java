@@ -52,7 +52,7 @@ public class CultureControllerTest {
     }
 
     @Test
-    @Description("getSize return 0 when table have 0 objects")
+    @Description("getSize return 0 when table have no objects")
     public void getSize_return0Size() throws Exception {
         when(cultureObjectsRepository.count()).thenReturn(0L);
         MockHttpServletResponse response = getMockHttpServletResponse("/culture/all/size");
